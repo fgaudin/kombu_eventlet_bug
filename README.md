@@ -21,3 +21,7 @@ in a second console:
 Expected error on the first call:
 
 AttributeError: 'LifoQueue' object has no attribute 'mutex'
+
+The problem comes from kombu.resource.LifoQueue having 
+'eventlet.green.Queue.LifoQueue' as base class instead of the standard python 3
+LifoQueue.
