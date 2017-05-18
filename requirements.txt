@@ -1,0 +1,15 @@
+amqp==2.1.4
+appdirs==1.4.3
+billiard==3.5.0.2
+celery==4.0.2
+enum-compat==0.0.2
+eventlet==0.21.0
+greenlet==0.4.12
+gunicorn==19.7.1
+kombu==4.0.2
+packaging==16.8
+pkg-resources==0.0.0
+pyparsing==2.2.0
+pytz==2017.2
+six==1.10.0
+vine==1.1.3
